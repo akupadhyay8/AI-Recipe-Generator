@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+rasa_env/
+ENV/
+.env/
+*.env
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Rasa specific folders
+models/              # Ignore trained model files (if they are large)
+logs/                # If you have any log files
+
+# Data files (optional: ignore if your dataset is large or private)
+dataset/RAW_recipes.csv
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Other temporary files
+*.swp
+*.bak
+
+# Ignore large dataset files
+dataset/RAW_interactions.csv
+dataset/RAW_recipes.csv
+dataset/PP_recipes.csv
+
+# Ignore large binaries in the virtual environment
+rasa_env/Lib/site-packages/tensorflow/python/_pywrap_tensorflow_internal.pyd
+
+
+# Ignore large dataset files
+dataset/RAW_recipes.csv
+dataset/RAW_interactions.csv
+dataset/PP_recipes.csv
+
+# Ignore large binaries from the virtual environment
+rasa_env/Lib/site-packages/tensorflow/python/_pywrap_tensorflow_internal.pyd
+rasa_env/Lib/site-packages/clang/native/libclang.dll
